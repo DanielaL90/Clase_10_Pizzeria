@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', 'Arial';
+}
+
+.contenedor {
+    background-color: black;
+}
+
+.encabezado {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+
+.logo {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.pizza {
+    color: #39B24A;
+}
+
+.y {
+    color: white;
+}
+
+.front {
+    color: red;
+}
+
+.listado ul {
+    display: flex;
+    list-style-type: none;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+.listado li {
+    color: white;
+    font-size: 16px;
+}
+
+.contenedor_cuerpo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 50px 0px;
+}
+
+.caja-1 {
+    display: flex;
+    width: 986px;
+    height: 350px;
+    border: 2px solid #39B24A;
+    border-radius: 5px;
+}
+
+.izquierda,
+.derecha {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.izquierda {
+    background-color: #F3E29F;
+    position: relative;
+}
+
+.izquierda img {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px 0 0 5px;
+}
+
+.izquierda h2 {
+    position: absolute;
+    top: 12px;
+    left: 20px;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.derecha {
+    background-color: white;
+    border-radius: 0 5px 5px 0;
+    display: flex;
+    
+}
+
+.rojo {
+    color: red;
+}
+
+.blanco {
+    color: white;
+}
+
+.rojo2 {
+    color: red;
+}
+
+.vegetales {
+    position: absolute;
+    bottom: 300px;
+    width: 100px;
+    height: auto;
+    align-self: flex-end;
+    right: 350px;
+}
+
+.lista {
+    margin-left: 70px;
+    margin-top: 2px;
+    align-self: flex-start;
+    text-align: left;
+}
+
+.derecha h2 {
+    position: absolute;
+    top: 170px;
+    padding: 0 10px;
+    color: red;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.derecha h3 {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    align-self:flex-start;
+    text-align: left;
+    margin-left: 60px;
+    
+}
+
+footer {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.listado_pie ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.listado_pie li {
+    margin-bottom: 10px;
+}
+
+.derecha-footer {
+    display: flex;
+    align-items: center;
+    gap: 10px; 
+}
+
+.derecha-footer img {
+    width: 50px;
+}
